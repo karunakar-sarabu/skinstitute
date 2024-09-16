@@ -1,0 +1,70 @@
+/* Container for the faculty page */
+.faculty-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title of the page */
+  .faculty-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #6f4f28; /* Brown color */
+  }
+  
+  /* Container for faculty cards */
+  .faculty-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual faculty card */
+  .faculty-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Image inside the card */
+  .faculty-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Faculty info section */
+  .faculty-info {
+    padding: 15px;
+  }
+  
+  /* Name of the faculty */
+  .faculty-name {
+    font-size: 1.5em;
+    margin: 0;
+    color: #6f4f28; /* Brown color */
+  }
+  
+  /* Position of the faculty */
+  .faculty-position {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #8b4513; /* Darker brown */
+  }
+  
+  /* Biography of the faculty */
+  .faculty-bio {
+    font-size: 1em;
+    color: #333; /* Dark gray */
+  }
+  
+  /* Hover effect for cards */
+  .faculty-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+  }
+  

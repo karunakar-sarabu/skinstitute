@@ -1,0 +1,49 @@
+.courses-page {
+    padding: 40px;
+    text-align: center;
+    background-color: #f0f8ff; /* Light blue background for the whole page */
+  }
+  
+  .courses-page h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #1e90ff; /* Bright blue for the heading */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #ffffff; /* White background for the cards */
+    border: 2px solid #1e90ff; /* Bright blue border */
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .course-card h2 {
+    font-size: 1.75em;
+    margin-bottom: 15px;
+    color: #32cd32; /* Lime green for card titles */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .course-card p {
+    font-size: 1em;
+    color: #333; /* Dark grey for text */
+    line-height: 1.6;
+  }
+  
